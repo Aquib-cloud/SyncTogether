@@ -1,2 +1,4 @@
 import { io } from "socket.io-client";
-export const socket = io("http://localhost:3000");
+
+// SAME ORIGIN — no IP, no port, LAN safe
+export const socket = io();

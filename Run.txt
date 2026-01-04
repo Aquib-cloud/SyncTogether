@@ -1,6 +1,4 @@
-cd server
-node index.js
-
-
 cd client
-npm run dev
+npm run build
+cd ../server
+npm start
